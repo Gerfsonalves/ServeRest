@@ -12,7 +12,7 @@ describe('API - Cadastro', () => {
             body: {
                 "nome": faker.person.fullName(),
                 "email": faker.internet.email(),
-                "password": "teste",
+                "password": faker.internet.password(),
                 "administrador": "true"
             }
         }).then((response) => {
