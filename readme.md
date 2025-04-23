@@ -18,7 +18,7 @@
 
 ### 🔧 Integração Contínua com GitHub Actions
 <ul>
-✅ Testes automatizados rodando em cada <b>push</b> ou <b>pull request</b>
+✅ Testes automatizados rodando em cada <b>push</b> ou <b>pull request</b><br>
 ✅ Relatórios de execução diretamente no GitHub
 </ul><br>
 
