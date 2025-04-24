@@ -2,6 +2,12 @@
 
 /// 01 Login com usuário válido - 02 Login com credenciais inválidas
 
+/// OBSERVAÇÃO SOBRE O LOGIN DE USUÁRIO
+
+///POST
+/// /login
+///Realizar login
+///A duração do token retornado em authorization é de 600 segundos (10 minutos). Caso esteja expirado irá receber status code 401 (Unauthorized).
 
 describe('API - Teste funcional de login', () => {
   ///  it('Deve realizar o login com sucesso', () => {
